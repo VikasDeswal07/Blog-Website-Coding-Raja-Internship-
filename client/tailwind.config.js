@@ -6,9 +6,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     flowbite.content(),
+    "./src/index.css"
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [flowbite.plugin(),],
 }
+
